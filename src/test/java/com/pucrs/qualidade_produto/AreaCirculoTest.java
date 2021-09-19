@@ -31,4 +31,10 @@ public class AreaCirculoTest {
         Assertions.assertEquals("A=70685.7750", resposta);
     }
 
+    @Test
+    void teste4(){
+        String resposta = ac.calculaArea(210.00);
+        Assertions.assertEquals("A=138544.1190", resposta);
+    }
+
 }
